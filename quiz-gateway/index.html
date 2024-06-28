@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <h1>Hello to Oai's Quiz</h1>
+
+    <h2>Single Choice</h2>
+    <div id="single-choice"></div>
+
+    <button id="submit-single-choice" type="button">
+      Submit Single Choice
+    </button>
+
+    <h2>Add Question</h2>
+
+    <div>Questions:</div>
+    <div id="questions"></div>
+
+    <div id="add-question-form">
+      <label for="question">Question</label>
+      <input type="text" id="question" name="question" required />
+
+      <button id="add-option" type="button">Add Options (+)</button>
+
+      <div id="options"></div>
+
+      <button id="add-single-choice-question" type="submit">
+        Add Single Choice (+)
+      </button>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

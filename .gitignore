@@ -1,0 +1,4 @@
+.vscode
+
+quiz-backend/node_modules
+quiz-backend/package-lock.json
